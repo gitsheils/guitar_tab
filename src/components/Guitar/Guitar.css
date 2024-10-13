@@ -1,0 +1,112 @@
+.guitar {
+  width: 1200px;
+  margin: 0px auto;
+  padding: 20px 0;
+  display: flex;
+}
+.guitar__sidebar {
+  width: 200px;
+  height: 495px;
+  background-color: rgba(255, 255, 255, 0.5);
+  margin: 0 20px 0 0;
+}
+.guitar__main {
+  width: 980px;
+  /*background-color: rgba(255, 255, 255, 0.5);*/
+}
+.guitar__tabs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  /*background-color: rgb(255, 255, 255);*/
+}
+.guitar__letters {
+  margin: 0 5px 0 5px;
+  color: grey;
+  width: 20px;
+}
+.guitar__letter {
+  margin: 15px 0 0;
+  height: 15px;
+}
+
+#tab-form {
+  margin-right: 0px;
+  margin-left: 30px;
+  margin-bottom: 5px;
+  background-color: transparent;
+}
+
+.form {
+  margin: 0 0 60px;
+  width: 980px;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+.form__input {
+  border-radius: 50%;
+  padding: 0;
+  text-align: center;
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  bottom: -14px;
+  border: none;
+  background-color: rgb(209, 208, 208);
+  font-size: 18px;
+}
+.form__input:focus {
+  outline-width: 0;
+}
+.form__input_title {
+  border-radius: 0px;
+  position: static;
+  width: 300px;
+  height: 30px;
+  text-align: left;
+  padding-left: 5px;
+  margin-left: 30px;
+}
+.form__input_title::placeholder {
+  font-style: italic;
+}
+.form__button {
+  cursor: pointer;
+  width: 80px;
+  height: 30px;
+  font-size: 18px;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: white;
+}
+.form__button:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.form__button_add {
+  margin-right: 50px;
+  margin-left: auto;
+  width: 120px;
+}
+.form__button:disabled {
+  background-color: rgba(0, 0, 0, 0.4);
+  cursor: auto;
+}
+.form__button_add:disabled {
+  background-color: rgba(0, 0, 0, 0.4);
+  cursor: auto;
+}
+
+.tab__line_form {
+  border-color: black;
+  height: 40px;
+}
+
+.guitar__title {
+  cursor: pointer;
+  margin: 0 5px 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.guitar__title:hover {
+  color: rgba(0, 0, 0, 0.5);
+}

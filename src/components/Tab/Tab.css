@@ -1,0 +1,25 @@
+.tab {
+  display: flex;
+  margin: 0 50px 0px 0;
+  padding-bottom: 20px;
+
+  background-color: white;
+}
+
+.tab__line {
+  width: 30px;
+  height: 30px;
+  border-bottom: 2px solid lightgray;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  position: relative;
+}
+
+.tab__note {
+  margin: 0;
+  position: absolute;
+  bottom: -10px;
+  font-size: 18px;
+}

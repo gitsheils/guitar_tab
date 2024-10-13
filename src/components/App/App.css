@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+}
+.page {
+  max-width: 1440px;
+  margin: 0 auto;
+
+  background-image: url("../../assets/lights.avif");
+  background-size: cover;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: overlay;
+
+  min-height: 100vh;
+}

@@ -1,0 +1,1 @@
+This project was setup with Vite. This app allows users to log their guitar tabs. Edits to this frontend is being worked on; such edits include changing the state variable "notes" from an array to an object for better memory usage. The backend to store users and tabs is currently being built.
